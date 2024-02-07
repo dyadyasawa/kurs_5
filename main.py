@@ -1,5 +1,8 @@
 
 from classes import HeadHunterApi
+from pprint import  pprint
 
-hh = HeadHunterApi('водоканал')
-print(hh.write_to_json(hh.get_employers()))
+hh = HeadHunterApi('и')
+hh.write_to_json()
+pprint(hh.choice_from_json())
+
